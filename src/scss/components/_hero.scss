@@ -1,0 +1,17 @@
+.hero {
+    background-color: var(--color-eastbay);
+    padding-top: 165px;
+    position: relative;
+    min-height: 528px;
+    // z-index: 1;
+
+    &__bg-text {
+        position: absolute;
+        left: 20%;
+        top: 43%;
+        z-index: -9;
+        font-weight: bold;
+        font-size: 200px;
+        color: rgba(255, 255, 255, 0.12);
+    }
+}

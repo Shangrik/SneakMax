@@ -1,0 +1,27 @@
+//
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    
+
+    &__container {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    &__left {
+        grid-column: 2 span;
+    }
+
+    &__right {
+        grid-column: 10 span;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__cart {
+        position: relative;
+
+    }
+}
